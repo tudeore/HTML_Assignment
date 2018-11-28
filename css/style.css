@@ -1,0 +1,42 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color:orange;
+    position: absolute;
+    top: 0%;
+}
+h1{
+    text-align: center;
+}
+img{
+    position: absolute;
+    top: 0%;
+}
+h1{
+    color:white;
+}
+nav{
+    font-size: 23px;   
+    height: 40px;
+    background-color: black;
+    position:relative;
+    top:92px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0%;
+}
+h2{
+    font-size: 15px;
+    color:red;
+    
+}
