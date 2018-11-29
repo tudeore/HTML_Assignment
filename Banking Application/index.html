@@ -1,9 +1,13 @@
-html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
 <style>
-    body{
-        background-color: orange;
-    }
+    
     header{
          height: 100px;
          width: 100%;
@@ -26,7 +30,7 @@ html>
          height: 40px;
          background-color: black;
          position:relative;
-         top:74px;
+         top:92px;
      }
      a{
          color: white;
@@ -49,29 +53,31 @@ html>
      img1{
 
      }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    position: relative;
-    top: 120px;
-}
+     .container{
+         position: relative;
+         top: 90px;
+     }
+     .topright{
+         position: absolute;
+         top: 25%;
+         right: 50px;
+     }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
+     .AlignButton
+     {
+         position:relative;
+         float:right;
+         right:50px;
+     }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+
 </style>
-</head>
 <body>
-        <header>
+    
+    <header>
                 <h1>HDFC Bank</h1>
                 <img src="bank.jpg" width=200px height=100px>
+                
     </header>            
 
              <nav>
@@ -87,57 +93,25 @@ tr:nth-child(even) {
             </nav>
 
 
-<h2>HTML Table</h2>
 
-<table>
-  <tr>
-    <th>Customer-ID</th>
-    <th>Customer Name</th>
-    <th>Account Number</th>
-    <th>Email-ID</th>
-    <th>Phone Number</th>
-    <th>Date Of Birth</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  
+            <div class="container">
+                <img class="hdfc home" src="hdfc.jfif" width="100%" height="640px">
+            </div>
+            <div class="topright">
+                
+                Username : <input type="text"><br><br>
+                Password : <input type="text"><br><br>
+                <input type="button" value="Sign-in" class="AlignButton">
+            </div>
+
+            
 <footer>
-<img1 src="logo.jpg" width=100px height=100px>
-<h2>Copyright HDFC Bank Ltd. Terms and Conditions l Privacy Policy</h2>
+    <img1 src="logo.jpg" width=100px height=100px margin-top="-50px">
+    <h2>Copyright HDFC Bank Ltd. Terms and Conditions l Privacy Policy</h2>
 
 </footer>
-  
-</table>
 
+    
+       
 </body>
 </html>
